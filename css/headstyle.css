@@ -1,0 +1,10 @@
+
+header{
+    padding:5px;
+}
+
+#search{
+    border-style:solid black 1px;
+    padding: 2px;
+    background-color: blue;
+}
