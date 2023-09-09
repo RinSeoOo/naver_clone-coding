@@ -3,10 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
+    
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="mainstyle.css" type="text/css" rel="stylesheet">
-    <link href="headstyle.css" type="text/css" rel="stylesheet">
+    <link href="/css/mainstyle.css" type="text/css" rel="stylesheet">
+    <link href="/css/headstyle.css" type="text/css" rel="stylesheet">
 
     <title>Naver</title>
     
@@ -15,186 +16,188 @@
 
 <body>
     
-    <header>
-        <!-- 가장 윗부분(header) -->
-        메뉴 | pay
-        <div id="search">
-            search
-        </div>
-        <nav>
-            <a href="#">메일</a>
-            <a href="#">카페</a>
-            <a href="#">블로그</a>
-            <a href="#">쇼핑</a>
-            <a href="#">뉴스</a>
-            <a href="#">증권</a>
-            <a href="#">부동산</a>
-            <a href="#">지도</a>
-            <a href="#">웹툰</a>
-            <a href="#">...</a>
-        </nav>
-        ... | 알림
-    </header>
-
-
-    <!-- mainpage 구성 -->
-    <main style="background-color:yellow; padding:5px;">
-        mainpage
-        <add1-area>
-            광고 
-        </add1-area>
-
-        <news-area>
-            <nav id="new_nav">
-                <a href="#">뉴스스텐드</a>
-                <a href="#">언론사편집</a>
-                <a href="#">엔터</a>
-                <a href="#">스포츠</a>
-                <a href="#">경제</a>
-            </nav>
-            <div id="entire_summary_animation">
-                전체 언론사 애니메이션
+    <div id="wrap">
+        <header role="banner">
+            <!-- 가장 윗부분(header) -->
+            메뉴 | pay
+            <div id="search" class="banner_saerch">
+                search
             </div>
-            <section id="main_news">
-                언론사
-            </section>
-            <div id="go_to_other_page">
-                언론사 더보기
-            </div>
-        </news-area>
-
-        <shopping-area>
-            <nav id="shopping_nav">
+            <nav role="navigation">
+                <a href="#">메일</a>
+                <a href="#">카페</a>
+                <a href="#">블로그</a>
                 <a href="#">쇼핑</a>
-                <a href="#">맨즈</a>
-                <a href="#">원쁠딜</a>
-                <a href="#">쇼핑라이브</a>
-            </nav>
-            <!-- 쇼핑 파트 -->
-            <div id="today_pick">
-                오늘의 혜택
-            </div>
-            <section id="mainshopping">
-                <div id="shopping_item">
-                    item
-                </div>
-                <div id="shopping_market">
-                    쿠팡
-                    g마켓 ...
-                </div>
-                <div id="myshopping">
-                    쇼핑홈 | 리뷰적립 | 주문 | 장바구니 
-                </div>
-                <div id="shopping_adv">
-                    광고
-                </div>
-            </section>
-            <div id="othershopping">
-                쇼핑 아이템 더보기 
-            </div>
-
-        </shopping-area>
-
-        <mainpage-area>
-            <nav id="mainpage_nav">
-                <a href="#">추천.구독</a>
-                <a href="#">자동차</a>
+                <a href="#">뉴스</a>
+                <a href="#">증권</a>
+                <a href="#">부동산</a>
+                <a href="#">지도</a>
                 <a href="#">웹툰</a>
-                <a href="#">패션뷰티</a>
-                <a href="#">레시피</a>
-                <a href="#">리빙</a>
-                <a href="#">책방</a>
-                <a href="#">지식+</a>
+                <a href="#">...</a>
             </nav>
-
-            <!-- 지식+ 파트 -->
-            <div id="best.knowledge_summary">
-
-            </div>
-            <div id="knowledge_others">
-
-            </div>
-            <div id="knowledge_open">
-                펼쳐보기+
-            </div>
-        </mainpage-area>
-        
-        <login-area>
-            아이디
+            ... | 알림
+        </header>
+    
+    
+        <!-- mainpage 구성 -->
+        <main style="background-color:yellow; padding:5px;">
+            mainpage
+            <add1-area>
+                광고 
+            </add1-area>
+    
+            <news-area>
+                <nav id="new_nav">
+                    <a href="#">뉴스스텐드</a>
+                    <a href="#">언론사편집</a>
+                    <a href="#">엔터</a>
+                    <a href="#">스포츠</a>
+                    <a href="#">경제</a>
+                </nav>
+                <div id="entire_summary_animation">
+                    전체 언론사 애니메이션
+                </div>
+                <section id="main_news">
+                    언론사
+                </section>
+                <div id="go_to_other_page">
+                    언론사 더보기
+                </div>
+            </news-area>
+    
+            <shopping-area>
+                <nav id="shopping_nav">
+                    <a href="#">쇼핑</a>
+                    <a href="#">맨즈</a>
+                    <a href="#">원쁠딜</a>
+                    <a href="#">쇼핑라이브</a>
+                </nav>
+                <!-- 쇼핑 파트 -->
+                <div id="today_pick">
+                    오늘의 혜택
+                </div>
+                <section id="mainshopping">
+                    <div id="shopping_item">
+                        item
+                    </div>
+                    <div id="shopping_market">
+                        쿠팡
+                        g마켓 ...
+                    </div>
+                    <div id="myshopping">
+                        쇼핑홈 | 리뷰적립 | 주문 | 장바구니 
+                    </div>
+                    <div id="shopping_adv">
+                        광고
+                    </div>
+                </section>
+                <div id="othershopping">
+                    쇼핑 아이템 더보기 
+                </div>
+    
+            </shopping-area>
+    
+            <read-area>
+                <nav id="read_nav">
+                    <a href="#">추천.구독</a>
+                    <a href="#">자동차</a>
+                    <a href="#">웹툰</a>
+                    <a href="#">패션뷰티</a>
+                    <a href="#">레시피</a>
+                    <a href="#">리빙</a>
+                    <a href="#">책방</a>
+                    <a href="#">지식+</a>
+                </nav>
+    
+                <!-- 지식+ 파트 -->
+                <div id="best.knowledge_summary">
+    
+                </div>
+                <div id="knowledge_others">
+    
+                </div>
+                <div id="knowledge_open">
+                    펼쳐보기+
+                </div>
+            </read-area>
             
-            <a href="#">메일</a>
-            <a href="#">카페</a>
-            <a href="#">블로그</a>
-            <a href="#">페이</a>
-            <a href="#">++ -> 옆으로 넘기기 가능하게</a>
-        </login-area>
-        
-        <adv2-area>
-            광고
-        </adv2-area>
-        
-        <weather-area>
-            날씨
-            <div id="weather_here">
-                현재 위치에서 날씨
-            </div>
-        </weather-area>
-        
-        <stock-area>
-            <div id="kospi_stock&mine">
-                코스피 
-                관심 종목 
-            </div>
-        </stock-area>
-        
-        <widget-area>
-            <section id="calendar">
-                캘린더
-            </section>
-            <section id="memo">
-                메모
-            </section>
-            <section id="papago">
-                papago
-            </section>
-            <section id="en_dictionary">
-                영어사전
-            </section>
-        </widget-area>
-
-        <add4-area>
+            <login-area>
+                아이디
+                
+                <a href="#">메일</a>
+                <a href="#">카페</a>
+                <a href="#">블로그</a>
+                <a href="#">페이</a>
+                <a href="#">++ -> 옆으로 넘기기 가능하게</a>
+            </login-area>
             
-        </add4-area>
-
-    </main>
-
-
-    <!-- footer page 구성 -->
-    <footer style="background-color:yellow; padding:5px;">
-        footer page
-        <nav2-area>
-            <a href="#">공지사항</a>
-            <a href="#">서비스 전체보기 ></a>
-        </nav2-area>
-        
-        <partner-area>
-            creators
-            partners
-            developers
-        </partner-area>
-        
-        <footer-bottom>
-            회사소개
-            인재채용
-            제휴제안
-            이용약관
-            개인정보처리방칩
-            청소년보호정책
-            네이버 정책
-            고객센터
-            ©NAVER Corp.
-        </footer-bottom>
-    </footer>
+            <adv2-area>
+                광고
+            </adv2-area>
+            
+            <weather-area>
+                날씨
+                <div id="weather_here">
+                    현재 위치에서 날씨
+                </div>
+            </weather-area>
+            
+            <stock-area>
+                <div id="kospi_stock&mine">
+                    코스피 
+                    관심 종목 
+                </div>
+            </stock-area>
+            
+            <widget-area>
+                <section id="calendar">
+                    캘린더
+                </section>
+                <section id="memo">
+                    메모
+                </section>
+                <section id="papago">
+                    papago
+                </section>
+                <section id="en_dictionary">
+                    영어사전
+                </section>
+            </widget-area>
+    
+            <add4-area>
+                
+            </add4-area>
+    
+        </main>
+    
+    
+        <!-- footer page 구성 -->
+        <footer style="background-color:yellow; padding:5px;">
+            footer page
+            <nav id="nav_footer">
+                <a href="#">공지사항</a>
+                <a href="#">서비스 전체보기 ></a>
+            </nav>
+            
+            <partner-area>
+                creators
+                partners
+                developers
+            </partner-area>
+            
+            <footer-bottom>
+                회사소개
+                인재채용
+                제휴제안
+                이용약관
+                개인정보처리방칩
+                청소년보호정책
+                네이버 정책
+                고객센터
+                ©NAVER Corp.
+            </footer-bottom>
+        </footer>
+    </div>
 </body>
 
 </html>

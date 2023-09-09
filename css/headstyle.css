@@ -3,8 +3,9 @@ header{
     padding:5px;
 }
 
-#search{
-    border-style:solid black 1px;
-    padding: 2px;
-    background-color: blue;
+.banner_saerch{
+    /* padding: 2px; */
+    height: 60px;
+    width: 708px;
+    border-style: 1px black solid;
 }
